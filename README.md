@@ -1,7 +1,7 @@
 # Krynet Ports (Unofficial)
 
 <p align="center">
-  Unofficial multi-platform ports of Krynet.ai with restored Windows support.
+  Community-maintained Krynet.ai ports — preserving platform access and third-party viability.
 </p>
 
 <p align="center">
@@ -15,28 +15,44 @@
 
 ---
 
-## Overview
+## Statement
 
-This repository provides **unofficial native ports of Krynet.ai**, with a primary focus on restoring and maintaining **Windows support**.
+Krynet Ports exists to preserve platform access and maintain third-party client viability.
 
-While Krynet officially supports Linux, Android, iOS (source), and Web, official Windows support was discontinued. This project exists to provide a **native Windows client without requiring WSL**, while also maintaining builds for other platforms.
+Recent public statements and platform decisions from Krynet leadership indicate a clear shift toward tighter control over client distribution and reduced tolerance for unofficial builds.
 
-> ⚠️ This project is not affiliated with Krynet LLC.  
-> ⚠️ These builds are unofficial and independently maintained.
+Official Windows support was discontinued.  
+Users were redirected to WSL as the only supported method.  
+Messaging now favors exclusively official clients.
+
+The direction is clear:
+
+Independent clients are no longer welcome in the ecosystem the way they once were.
+
+This repository exists in direct response to that shift.
 
 ---
 
-## Official Krynet Platforms
+## Upstream / Official Repository
 
-Official Krynet.ai clients are available for:
+Official Krynet source and organization:
 
-- **Linux** (compiled, ready-to-run)
-- **Android** (compiled, ready-to-run)
-- **iOS** (source only – requires Xcode compilation)
-- **Web** – https://krynet.ai/web
+- https://github.com/Krynet-LLC  
+- https://krynet.ai  
 
-For official downloads, visit:  
-https://krynet.ai → Download
+This project is independent and not affiliated with Krynet LLC.
+
+---
+
+## Mission
+
+- Restore and maintain native Windows support
+- Preserve access where official builds are discontinued
+- Maintain compatibility with current Krynet web APIs
+- Keep third-party implementations viable where technically possible
+- Ensure users are not locked into specific environments
+
+Platform access should not disappear because of policy changes.
 
 ---
 
@@ -47,8 +63,10 @@ https://krynet.ai → Download
 - ✅ Android builds
 - ✅ iOS source package
 - ✅ No WSL dependency for Windows
-- ✅ Compatibility with current Krynet web APIs
-- ✅ Ongoing Windows maintenance and updates
+- ✅ Ongoing maintenance and API compatibility tracking
+
+This project does not modify Krynet’s backend or services.  
+It provides alternative client implementations and maintained platform builds.
 
 ---
 
@@ -58,33 +76,46 @@ https://krynet.ai → Download
 
 1. Navigate to the Releases page:  
    https://github.com/JamesHickers/Krynet-ports/releases  
-2. Download the build for your platform.  
+2. Download your platform build.  
 3. Run the executable or install the package.
 
-No additional configuration required.
+No WSL required for Windows.
 
 ---
 
 ### iOS
 
-1. Download the iOS source package from Releases.  
-2. Open the project in Xcode.  
-3. Configure signing & provisioning.  
+1. Download the iOS source package from Releases.
+2. Open the project in Xcode.
+3. Configure signing and provisioning.
 4. Build and deploy to your device.
 
 ---
 
-## Project Scope
+## Ecosystem Position
 
-This project:
+Historically, third-party clients operated in a gray area within the Krynet ecosystem.
 
-- Restores native Windows support
-- Tracks Krynet API changes
-- Provides maintained community builds
-- Avoids WSL as a dependency on Windows
+Recent public positioning and platform changes indicate that this tolerance is ending.
 
-Windows-related commits and updates:  
-https://github.com/JamesHickers/Krynet-ports/commits/Windows
+This project represents a firm stance:
+
+- Third-party development should not be erased.
+- Platform choice should not be removed.
+- Users should not be forced into indirect environments.
+- Community ports should remain viable where technically possible.
+
+If official support becomes restrictive or withdrawn, community support continues.
+
+---
+
+## Project Principles
+
+- Platform independence
+- User-first accessibility
+- Open-source transparency
+- Predictable availability
+- No forced environment lock-in
 
 ---
 
@@ -92,14 +123,14 @@ https://github.com/JamesHickers/Krynet-ports/commits/Windows
 
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-Under GPL-3.0, you may:
+You are free to:
 
-- Use the software
-- Modify the source code
-- Distribute copies
-- Distribute modified versions
+- Use  
+- Modify  
+- Distribute  
+- Fork  
 
-All derivative works must also comply with GPL-3.0.
+All derivative works must comply with GPL-3.0.
 
 See the `LICENSE` file for full terms.
 
