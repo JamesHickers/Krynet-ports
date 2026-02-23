@@ -4,19 +4,19 @@
 
 This repository contains **all the unofficial clients and ports** for Krynet.ai, with a focus on **Windows**.
 
-> ⚠️ Official Krynet.ai clients only exist for:  
-* **Linux** ![Linux](https://img.icons8.com/ios-filled/16/linux.png) – source only, not precompiled  
+> ⚠️ Official Krynet.ai clients exist for:  
+* **Linux** ![Linux](https://img.icons8.com/ios-filled/16/linux.png) – compiled, ready-to-run  
 * **iOS** ![Apple](https://img.icons8.com/ios-filled/16/mac-os.png) – source only, must compile yourself  
-* **Android** ![Android](https://img.icons8.com/ios-filled/16/android-os.png)  
+* **Android** ![Android](https://img.icons8.com/ios-filled/16/android-os.png) – compiled, ready-to-run  
 * **Web** 🌐 [krynet.ai/web](https://krynet.ai/web)  
 
 > ⚠️ Windows is **not officially supported** — official Windows client was discontinued by @4zx16 (😬), and the only “official” method is via WSL.  
 
 If you want the official clients:  
 * Go to [krynet.ai](https://krynet.ai) and navigate to the **Download** section for Linux, iOS, Android, or Web.  
-* Official clients are **not precompiled for Windows**, only WSL is officially supported.
+* Official clients are **compiled and ready-to-run** except for iOS, which requires compiling from source.
 
-This repo exists to **bring back Windows support**, and includes unofficial builds for iOS, Android, Linux, and PeppermintOS.  
+This repo exists to **bring back Windows support**, and includes **unofficial builds** for iOS, Android, Linux, PeppermintOS, and Windows.  
 
 ---
 
