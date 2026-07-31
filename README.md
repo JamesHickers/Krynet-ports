@@ -10,8 +10,6 @@ Looking for the official project? Start here:
 
 The repositories in this organization are **community-maintained** and are not part of the official Krynet project.
 
-I'd also tweak the disclaimer slightly:
-
 > [!WARNING]
 > **Krynet Ports is an independent community project.**
 >
