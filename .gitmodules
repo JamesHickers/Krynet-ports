@@ -1,0 +1,3 @@
+[submodule "dependencies/kai"]
+	url = git@github.com:Krynet-Community/KAI-Compatiblity-layer.git
+	path = dependencies/kai
